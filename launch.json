@@ -1,0 +1,10 @@
+{
+    "id": 100,
+    "name": " korede spag",
+    "description": "stir fry spaghethi garnished with plantain and sausage",
+    "ingredients": ["spaghethi" , "plaintain" , "saugage"],
+    "location": {
+        "address": "40 apapa road ebuttemette",
+        "web": "www.koredespag.com",
+}
+}
