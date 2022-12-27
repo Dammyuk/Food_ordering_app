@@ -8,6 +8,7 @@
         "web": "www.koredespag.com" 
 }
 }
+
 {
     "id": 101,
     "name": "stella mashed potatoes",
@@ -21,11 +22,20 @@
 
 {
     "id": 102,
-    "name":"temi rodo rice",
+    "name": "temi rodo rice",
     "description": "making pepper rodo rice",
     "ingredients": ["rice" , "rodo" , "spices"],
     "location": {
         "address": "2,kajola estate",
         "web": "www.temirodorice.com",
+    }
+}
+{
+    "id": 103,
+    "name":"damilicious spice and dodo beans",
+    "description": ["beans" , "dodo", "pepperspice"],
+    "location": {
+        "address": "63,ishashi pipeline",
+        "web": "www.damiliciousbeans",
     }
 }
