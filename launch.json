@@ -5,6 +5,27 @@
     "ingredients": ["spaghethi" , "plaintain" , "saugage"],
     "location": {
         "address": "40 apapa road ebuttemette",
-        "web": "www.koredespag.com",
+        "web": "www.koredespag.com" 
 }
+}
+{
+    "id": 101,
+    "name": "stella mashed potatoes",
+    "description": "mashed potates and cheese",
+    "ingredients": ["potatoes" , "cheese" , "flour"],
+    "location": {
+        "address": "10 ludart street,lagos",
+        "web": "www.stelamashedpotatoes.com",
+    }
+}
+
+{
+    "id": 102,
+    "name":"temi rodo rice",
+    "description": "making pepper rodo rice",
+    "ingredients": ["rice" , "rodo" , "spices"],
+    "location": {
+        "address": "2,kajola estate",
+        "web": "www.temirodorice.com",
+    }
 }
