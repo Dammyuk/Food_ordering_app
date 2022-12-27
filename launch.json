@@ -16,7 +16,7 @@
     "ingredients": ["potatoes" , "cheese" , "flour"],
     "location": {
         "address": "10 ludart street,lagos",
-        "web": "www.stelamashedpotatoes.com",
+        "web": "www.stelamashedpotatoes.com"
     }
 }
 
@@ -27,7 +27,7 @@
     "ingredients": ["rice" , "rodo" , "spices"],
     "location": {
         "address": "2,kajola estate",
-        "web": "www.temirodorice.com",
+        "web": "www.temirodorice.com"
     }
 }
 {
@@ -36,6 +36,6 @@
     "description": ["beans" , "dodo", "pepperspice"],
     "location": {
         "address": "63,ishashi pipeline",
-        "web": "www.damiliciousbeans",
+        "web": "www.damiliciousbeans"
     }
 }
