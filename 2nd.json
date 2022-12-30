@@ -1,0 +1,109 @@
+"required": [
+    "id",
+    "name",
+    "description",
+    "ingredients",
+    "price",
+    "location"
+],
+"properties": {
+    "id": {
+        "type": "integer",
+        "default": 0,
+        "title": "The id Schema",
+        "examples": [
+            100
+        ]
+    },
+    "name": {
+        "type": "string",
+        "default": "",
+        "title": "The name Schema",
+        "examples": [
+            " korede spag"
+        ]
+    },
+    "description": {
+        "type": "string",
+        "default": "",
+        "title": "The description Schema",
+        "examples": [
+            "stir fry spaghetti garnished with plantain and sausage"
+        ]
+    },
+    "ingredients": {
+        "type": "array",
+        "default": [],
+        "title": "The ingredients Schema",
+        "items": {
+            "type": "string",
+            "title": "A Schema",
+            "examples": [
+                "spaghetti",
+                "plaintain",
+                "sausage"
+            ]
+        },
+        "examples": [
+            ["spaghetti",
+                "plaintain",
+                "sausage"
+            ]
+        ]
+    },
+    "price": {
+        "type": "integer",
+        "default": 0,
+        "title": "The price Schema",
+        "examples": [
+            650
+        ]
+    },
+    "location": {
+        "type": "object",
+        "default": {},
+        "title": "The location Schema",
+        "required": [
+            "address",
+            "web"
+        ],
+        "properties": {
+            "address": {
+                "type": "string",
+                "default": "",
+                "title": "The address Schema",
+                "examples": [
+                    "40 apapa road ebuttemette"
+                ]
+            },
+            "web": {
+                "type": "string",
+                "default": "",
+                "title": "The web Schema",
+                "examples": [
+                    "www.koredespag.com"
+                ]
+            }
+        },
+        "examples": [{
+            "address": "40 apapa road ebuttemette",
+            "web": "www.koredespag.com"
+        }]
+    }
+},
+"examples": [{
+    "id": 100,
+    "name": " korede spag",
+    "description": "stir fry spaghethi garnished with plantain and sausage",
+    "ingredients": [
+        "spaghethi",
+        "plaintain",
+        "saugage"
+    ],
+    "price": 650,
+    "location": {
+        "address": "40 apapa road ebuttemette",
+        "web": "www.koredespag.com"
+    }
+}
+]
